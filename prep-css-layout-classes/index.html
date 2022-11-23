@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Layout Classes</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    /* stylelint-disable block-no-empty */
+    body {
+      font-family: sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .container {
+      max-width: 992px;
+      margin: auto;
+
+    }
+
+    .row {
+      width: 100%;
+      display: flex;
+    }
+
+    .column {
+      flex-basis: calc(100% / 3) ;
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+    .img{
+      width: 100%;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- Complete the HTML here -->
+  <h1>Indiana Jones</h1>
+  <div class="container">
+    <div class="row">
+      <div class="column"><img src="images/crusade.jpg" alt="">
+        <h3>Raiders of the Lost Ark</h3>
+        <p>In 1936, American archaeologist Indiana Jones recovers a golden idol from a booby-trapped Peruvian temple. Rival
+        archaeologist René Belloq corners him and steals the idol; Jones escapes in a waiting seaplane. After returning to the
+        United States, Jones is briefed by two Army Intelligence agents that Nazi German forces are excavating at Tanis, Egypt,
+        and one of their telegrams mentions Jones' old mentor Abner Ravenwood. Jones deduces that the Nazis seek the Ark of the
+        Covenant, which Adolf Hitler believes will make their army invincible. The agents recruit Jones to recover the Ark
+        first.</p>
+      </div>
+      <div class="column"><img src="images/raiders.jpg" alt="">
+        <h3>Temple of Doom</h3>
+        <p>
+          In 1935, Indiana Jones survives a murder attempt by Lao Che, a crime boss in Shanghai who has hired him to retrieve the
+          remains of Emperor Nurhaci. With his young orphaned Chinese sidekick, Short Round, and the nightclub singer, Willie
+          Scott, in tow, Indy flees Shanghai on a cargo aircraft, unaware that the plane is owned by Lao Che. While the three of
+          them are asleep, the pilots dump the fuel and escape via parachute, leaving the plane to crash over the Himalayas. The
+          three narrowly manage to survive by jumping out of the plane on an inflatable raft.
+        </p>
+      </div>
+      <div class="column"><img src="images/temple.jpg" alt="">
+        <h3>The Last Crusade</h3>
+        <p>
+          In 1912, 13-year-old Henry &#34;Indiana&#34; Jones, Jr., is horseback riding with his Boy Scout troop at Arches National Park in
+          Utah. While scouting caves, Indiana discovers a group of grave robbers who have found a golden crucifix belonging to
+          Francisco Vázquez de Coronado and steals it from them, hoping to donate it to a museum. The men give chase through a
+          passing circus train, leaving Indiana with a bloody cut across his chin from a bullwhip and a new phobia of snakes.
+          Indiana escapes, but the local sheriff makes him return the cross to the robbers, who immediately turn it over to a
+          mysterious benefactor wearing a Panama hat. Impressed with the boy's bravery, the leader of the robbers gives Indiana
+          his fedora.
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
